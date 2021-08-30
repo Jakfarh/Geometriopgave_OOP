@@ -8,8 +8,13 @@ namespace Geometriopgave_OOP
         {
             //Side_A kan herfra manipuleres.
 
-            Square Square1 = new Square();
-            
+            Square square1 = new Square();
+            square1.Side_A = int.Parse(Console.ReadLine());
+
+            Console.WriteLine();
+            Console.WriteLine(square1.Perimeter());
+            Console.WriteLine();
+            Console.WriteLine(square1.Area());
 
         }
     }
