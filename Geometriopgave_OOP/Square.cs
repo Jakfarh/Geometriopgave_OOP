@@ -38,8 +38,6 @@ namespace Geometriopgave_OOP
         {
 
         }
-
-        public int 
-    }   
+    }
 
 }
